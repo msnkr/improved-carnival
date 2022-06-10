@@ -6294,3 +6294,4 @@
 .venv/Lib/site-packages/tzdata/zones
 .venv/Scripts/django-admin.exe
 .venv/Scripts/sqlformat.exe
+portfo_project/portfo_project/.env
