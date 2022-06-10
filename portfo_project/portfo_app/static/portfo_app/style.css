@@ -1,9 +1,33 @@
-h1 {
-    color: black;
-    animation: exampleHeader 3s;
+#hiMyNameIs {
+    margin-top: 15%;
 }
 
-@keyframes exampleHeader {
-    from {color: black;}
-    to {color: red;}
+#hiMyNameIsP {
+    animation-name: hiMyNameIsP;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    color: salmon;
+}
+
+@keyframes hiMyNameIsP {
+    20% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 2;}
+}
+
+#hiMyNameIsH1 {
+    animation-name: hiMyNameIsH1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    font-size: 500%;
+    color: salmon;
+}
+
+@keyframes hiMyNameIsH1 {
+    20% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+body {
+    background-color: aliceblue;
 }
