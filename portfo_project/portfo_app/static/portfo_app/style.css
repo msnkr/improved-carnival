@@ -1,0 +1,9 @@
+h1 {
+    color: black;
+    animation: exampleHeader 3s;
+}
+
+@keyframes exampleHeader {
+    from {color: black;}
+    to {color: red;}
+}
