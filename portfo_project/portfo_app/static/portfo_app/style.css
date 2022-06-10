@@ -20,7 +20,7 @@
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
     font-size: 500%;
-    color: salmon;
+    color: lightcoral;
 }
 
 @keyframes hiMyNameIsH1 {
@@ -30,4 +30,8 @@
 
 body {
     background-color: aliceblue;
+}
+
+#navLink :hover {
+    color: lightgreen !important;
 }
