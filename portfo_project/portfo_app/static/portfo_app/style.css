@@ -17,7 +17,7 @@
 
 #hiMyNameIsH1 {
     animation-name: hiMyNameIsH1;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-timing-function: ease-in-out;
     font-size: 500%;
     color: lightcoral;
@@ -63,4 +63,13 @@ p {
 #aboutMe {
     margin-top: 15%;
     color: lightcoral;
+}
+
+#numbers {
+    color: black;
+}
+
+#descriptionText {
+    margin-right: 50%;
+    color: black;
 }

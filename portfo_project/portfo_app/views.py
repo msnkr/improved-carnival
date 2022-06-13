@@ -7,3 +7,11 @@ def home_page(request):
 
 def about_me(request):
     return render(request, 'portfo_app/about-me.html')
+
+
+def projects(request):
+    return render(request, 'portfo_app/projects.html')
+
+
+def experience(request):
+    return render(request, 'portfo_app/experience.html')
