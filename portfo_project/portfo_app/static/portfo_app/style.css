@@ -6,7 +6,7 @@
     animation-name: hiMyNameIsP;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
-    color: salmon;
+    color: lightcoral;
 }
 
 @keyframes hiMyNameIsP {
@@ -21,6 +21,7 @@
     animation-timing-function: ease-in-out;
     font-size: 500%;
     color: lightcoral;
+    animation-iteration-count: infinite;
 }
 
 @keyframes hiMyNameIsH1 {
@@ -32,6 +33,34 @@ body {
     background-color: aliceblue;
 }
 
-#navLink :hover {
-    color: lightgreen !important;
+.navbar-nav a {
+    color: black;
+}
+
+#iBuildThings {
+    animation-name: iBuildThings;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    color: lightcoral;
+}
+
+@keyframes iBuildThings {
+    20% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 2;}
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+}
+
+#aboutMe {
+    margin-top: 15%;
+    color: lightcoral;
 }
