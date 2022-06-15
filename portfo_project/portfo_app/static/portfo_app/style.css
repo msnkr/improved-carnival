@@ -5,7 +5,7 @@
 #hiMyNameIsP {
     animation-name: hiMyNameIsP;
     animation-duration: 5s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in;
     color: lightcoral;
 }
 
@@ -18,7 +18,7 @@
 #hiMyNameIsH1 {
     animation-name: hiMyNameIsH1;
     animation-duration: 7s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in;
     font-size: 500%;
     color: lightcoral;
     animation-iteration-count: infinite;
