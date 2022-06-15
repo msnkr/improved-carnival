@@ -37,6 +37,10 @@ body {
     color: black;
 }
 
+.navbar-nav:hover a:hover {
+    color: salmon;
+}
+
 #iBuildThings {
     animation-name: iBuildThings;
     animation-duration: 5s;
@@ -76,4 +80,35 @@ p {
 
 #githubIcon {
     color: lightcoral;
+}
+
+#heartIcon {
+    color: lightcoral;
+}
+
+#resumeButton a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn, .btn-primary {
+    background-color: salmon !important;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+.btn :hover :visited, .btn-primary :hover:visited {
+    background-color: aliceblue !important;
+    text-decoration: none !important;
+    border: none !important;
+    color: aliceblue !important;
+}
+
+#radixSort, #radixSort:visited {
+    color: salmon;
+    text-decoration: none;
+}
+
+#radixSort a :hover {
+    color: black !important;
 }
