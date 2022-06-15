@@ -64,7 +64,7 @@ p {
     font-weight: 700;
 }
 
-#aboutMe {
+#aboutMe, #experience, #contactMe, #projects {
     margin-top: 15%;
     color: lightcoral;
 }
@@ -111,4 +111,16 @@ p {
 
 #radixSort a :hover {
     color: black !important;
+}
+
+#aboutMe h1, #contactMe h1, #experience h1, #projects h1 {
+    animation-name: pageHeaders;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    color: lightcoral;
+}
+
+@keyframes pageHeaders {
+    20% {opacity: 0;}
+    100% {opacity: 1;}
 }
