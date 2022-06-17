@@ -1,17 +1,18 @@
 from django.shortcuts import render
+from django.views.generic import TemplateView
 
 # Create your views here.
-def home_page(request):
-    return render(request, 'portfo_app/home-page.html')
+class HomePageView(TemplateView):
+    template_name = 'portfo_app/home-page.html'
 
 
-def about_me(request):
-    return render(request, 'portfo_app/about-me.html')
+class AboutMeView(TemplateView):
+    template_name = 'portfo_app/about-me.html'
 
 
-def projects(request):
-    return render(request, 'portfo_app/projects.html')
+class ExperienceView(TemplateView):
+    template_name = 'portfo_app/experience.html'
 
 
-def experience(request):
-    return render(request, 'portfo_app/experience.html')
+class ProjectsView(TemplateView):
+    template_name = 'portfo_app/projects.html'

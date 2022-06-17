@@ -124,3 +124,26 @@ p {
     20% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+
+#folders {
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+#linea-text {
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#linea-exp {
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+#linea-exp h4 {
+    text-decoration: none;
+}
