@@ -5,7 +5,15 @@
 <div class="container" id="contactMe">
     <h1><span id="numbers">04.</span>Contact Me</h1>
     <p id="descriptionText">
-        
+        {% if form %}
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.name }}
+            {{ form.email }}
+            {{ form.message }}
+            {{ form.captcha }}
+        </form>
+        {% endif %}
     </p>
 </div>
 {% endblock body %}
