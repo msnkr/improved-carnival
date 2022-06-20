@@ -166,3 +166,31 @@ h4 a {
 #checkProject a :hover {
     color: black !important;
 }
+
+
+@media screen and (max-width: 600px){
+    #linea-text {
+        margin-left: 0%;
+    }
+    #descriptionText {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #linea-exp {
+        border: none;
+        padding: 5%;
+    }
+    #folders {
+        padding: 5%;
+        border: none;
+    }
+    .captcha-form {
+        margin: 5%;
+    }
+}
+
+.captcha-form {
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
