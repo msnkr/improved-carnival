@@ -30,7 +30,7 @@ def ContactPageView(request):
             form_email = form.cleaned_data['email']
             form_name = form.cleaned_data['name']
             form_form = f'Message: {email_message} \n\n From: {form_email} \n\n Name: {form_name}'
-            send_mail('New Message From Website', form_form, os.getenv('EMAIL_USER'), os.getenv(['TO_EMAIL']))
+            send_mail('New Message From Website', form_form, os.getenv('EMAIL_USER'), [os.getenv('TO_USER')])
             return thank_you(request)
         else:
             return ValidationError('Error')

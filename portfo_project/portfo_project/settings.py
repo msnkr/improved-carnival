@@ -39,6 +39,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'crispy_forms',
     'captcha',
     'portfo_app.apps.PortfoAppConfig',
     'django.contrib.admin',
@@ -141,3 +142,7 @@ EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = os.getenv('EMAIL_USER')
 EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASS')
+
+
+# Crispy Forms 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
