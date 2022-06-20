@@ -64,7 +64,7 @@ p {
     font-weight: 700;
 }
 
-#aboutMe, #experience, #contactMe, #projects {
+#aboutMe, #experience, #contactMe, #projects, #thankYou {
     margin-top: 15%;
     color: lightcoral;
 }
@@ -113,7 +113,7 @@ p {
     color: black !important;
 }
 
-#aboutMe h1, #experience h1, #projects h1 {
+#aboutMe h1, #contactMe h1, #experience h1, #projects h1 {
     animation-name: pageHeaders;
     animation-duration: 5s;
     animation-timing-function: ease-in;
@@ -153,7 +153,16 @@ h4 a {
     color: black;
 }
 
-#thankYou h1 {
+.thank-you-page {
     margin-top: 15%;
     color: lightcoral;
+}
+
+#checkProjects, #checkProject:visited {
+    color: salmon;
+    text-decoration: none;
+}
+
+#checkProject a :hover {
+    color: black !important;
 }
