@@ -145,4 +145,4 @@ EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASS')
 
 
 # Crispy Forms 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_TEMPLATE_PACK = 'bootstrap3'

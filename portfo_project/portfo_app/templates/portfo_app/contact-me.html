@@ -10,21 +10,21 @@
         <form method="POST">
             {% csrf_token %}
             <div class="row">
-                <div class="col-sm m-sm-3 mg-lg-5 text-center">
+                <div class="col-sm m-sm-4 m-lg-4 text-center">
                     {{ form.name|as_crispy_field }}
                 </div>
-                <div class="col-sm m-sm-3 mg-lg-5 text-center">
+                <div class="col-sm m-sm-4 m-lg-4 text-center">
                     {{ form.email|as_crispy_field }}
                 </div>
             </div>
-            <div class="m-sm-3 mg-lg-5 text-center">
+            <div class="m-sm-4 m-lg-4 text-center">
                 {{ form.message|as_crispy_field }}
             </div>
-            <div class="m-sm-3 mg-lg-5 text-center captcha-form mx-auto">
+            <div class="m-sm-4 m-lg-4 text-center captcha-form mx-auto">
                 {{ form.captcha|as_crispy_field }}
             </div>
             <div class="text-center">
-                <button class="btn btn-primary m-sm-3 m-lg-5">Contact</button>
+                <button class="btn btn-primary m-sm-4 m-lg-4">Send</button>
             </div>
         </form>
         {% endif %}
