@@ -198,3 +198,21 @@ h4 a {
 #contactMe {
     margin-top: 5%;
 }
+
+#githubIcon {
+    color: lightcoral;
+    animation-name: icon;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes icon {
+    0% {color: lightblue;}
+    10% {color: lightcoral;}
+    30% {color: lightgoldenrodyellow;}
+    50% {color: lightgreen;}
+    70% {color: lightpink;}
+    90% {color: lightsteelblue;}
+    100% {color: lightyellow;}
+}
