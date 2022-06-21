@@ -6,7 +6,7 @@
     animation-name: hiMyNameIsP;
     animation-duration: 5s;
     animation-timing-function: ease-in;
-    color: lightcoral;
+    color: var(--pastelGreen);
 }
 
 @keyframes hiMyNameIsP {
@@ -20,7 +20,7 @@
     animation-duration: 7s;
     animation-timing-function: ease-in;
     font-size: 500%;
-    color: lightcoral;
+    color: var(--pastelPurple);
     animation-iteration-count: infinite;
 }
 
@@ -30,7 +30,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: var(--pastelBeige);
 }
 
 .navbar-nav a {
@@ -38,14 +38,14 @@ body {
 }
 
 .navbar-nav:hover a:hover {
-    color: salmon;
+    color: var(--pastelPurple);
 }
 
 #iBuildThings {
     animation-name: iBuildThings;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
-    color: lightcoral;
+    color: var(--pastelGreen);
 }
 
 @keyframes iBuildThings {
@@ -66,7 +66,7 @@ p {
 
 #aboutMe, #experience, #projects, #thankYou {
     margin-top: 15%;
-    color: lightcoral;
+    color: var(--pastelGreen);
 }
 
 #numbers {
@@ -79,11 +79,11 @@ p {
 }
 
 #githubIcon {
-    color: lightcoral;
+    color: var(--pastelPurple);
 }
 
 #heartIcon {
-    color: lightcoral;
+    color: var(--pastelPurple);
 }
 
 #resumeButton a {
@@ -92,20 +92,20 @@ p {
 }
 
 .btn, .btn-primary {
-    background-color: salmon !important;
+    background-color: var(--pastelPurple) !important;
     text-decoration: none !important;
     border: none !important;
 }
 
 .btn :hover :visited, .btn-primary :hover:visited {
-    background-color: aliceblue !important;
+    background-color: var(--pastelBeige) !important;
     text-decoration: none !important;
     border: none !important;
-    color: aliceblue !important;
+    color: var(--pastelBeige) !important;
 }
 
 #radixSort, #radixSort:visited {
-    color: salmon;
+    color: var(--pastelPurple);
     text-decoration: none;
 }
 
@@ -117,7 +117,7 @@ p {
     animation-name: pageHeaders;
     animation-duration: 5s;
     animation-timing-function: ease-in;
-    color: lightcoral;
+    color: var(--pastelGreen);
 }
 
 @keyframes pageHeaders {
@@ -127,9 +127,17 @@ p {
 
 
 #folders {
-    border: 1px solid lightgreen;
+    border: 1px solid var(--pastelPink);
     border-radius: 5px;
     padding: 1%;
+}
+
+#folders h4 {
+    color: var(--pastelPurple);
+}
+
+#folders p {
+    color: black;
 }
 
 #linea-text {
@@ -139,7 +147,7 @@ p {
 }
 
 #linea-exp {
-    border: 1px solid lightgreen;
+    border: 1px solid var(--pastelPink);
     border-radius: 5px;
     padding: 1%;
 }
@@ -155,11 +163,11 @@ h4 a {
 
 .thank-you-page {
     margin-top: 15%;
-    color: lightcoral;
+    color: var(--pastelPurple);
 }
 
 #checkProjects, #checkProject:visited {
-    color: salmon;
+    color: var(--pastelPurple);
     text-decoration: none;
 }
 
@@ -200,7 +208,7 @@ h4 a {
 }
 
 #githubIcon {
-    color: lightcoral;
+    color: var(--pastelPurple);
     animation-name: icon;
     animation-iteration-count: infinite;
     animation-duration: 20s;
@@ -208,11 +216,16 @@ h4 a {
 }
 
 @keyframes icon {
-    0% {color: lightblue;}
-    10% {color: lightcoral;}
-    30% {color: lightgoldenrodyellow;}
-    50% {color: lightgreen;}
-    70% {color: lightpink;}
-    90% {color: lightsteelblue;}
-    100% {color: lightyellow;}
+    20% {color: var(--pastelBeige);}
+    40% {color: var(--pastelGreen);}
+    60% {color: var(--pastelPink);}
+    80% {color: var(--pastelPurple);}
+}
+
+/* Pastel Colors  */
+:root {
+    --pastelGreen: #CDF0EA;
+    --pastelBeige: #F9F9F9;
+    --pastelPink: #F6C6EA;
+    --pastelPurple: #C490E4
 }
