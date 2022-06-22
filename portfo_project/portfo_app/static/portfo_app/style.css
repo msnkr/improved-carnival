@@ -1,5 +1,5 @@
 #hiMyNameIs {
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 #hiMyNameIsP {
@@ -65,7 +65,7 @@ p {
 }
 
 #aboutMe, #experience, #projects, #thankYou {
-    margin-top: 15%;
+    margin-top: 10%;
     color: var(--pastelGreen);
 }
 
@@ -194,6 +194,9 @@ h4 a {
     }
     .captcha-form {
         margin: 5%;
+    }
+    #hiMyNameIs, #aboutMe {
+        margin-top: 35%;
     }
 }
 
