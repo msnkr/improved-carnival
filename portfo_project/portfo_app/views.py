@@ -40,3 +40,7 @@ def ContactPageView(request):
 
 def thank_you(request):
     return render(request, 'portfo_app/thank-you.html')
+
+
+def error404(request, exception):
+    return render(request, 'portfo_app/error404.html')

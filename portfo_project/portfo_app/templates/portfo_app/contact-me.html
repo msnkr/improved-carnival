@@ -20,8 +20,8 @@
             <div class="m-sm-4 m-lg-4 text-center">
                 {{ form.message|as_crispy_field }}
             </div>
-            <div class="m-sm-4 m-lg-4 text-center captcha-form mx-auto">
-                {{ form.captcha|as_crispy_field }}
+            <div class="m-lg-4 text-center captcha-form mx-auto">
+                <p>{{ form.captcha|as_crispy_field }}</p>
             </div>
             <div class="text-center">
                 <button class="btn btn-primary m-sm-4 m-lg-4">Send</button>

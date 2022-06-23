@@ -4,8 +4,16 @@
 {% block body %}
 <div class="container" id="aboutMe">
     <h1><span id="numbers">01.</span>About Me</h1>
-    <p id="descriptionText" class="mt-5">
-        Hi. I'm Mikyle Kruger, and a self-taught programmer. My whole journey into Python began when I learnt how to build a small AI which sniffs out wireless networks. Python became a big part of that code for me. I've always had an interest in technology, creating the AI was that push in the right direction to get me started as a developer.<br><br> My hobbies include ricing Linux distro's, tinkering with Raspberry Pi's and Windows security testing. If you want to hire me, I may not be able to remember the complexity of the <a href="https://www.geeksforgeeks.org/radix-sort/" id="radixSort">radix sort algorithm</a> but I am very good at Google.<br><br>I <i class="fa fa-heart-o" aria-hidden="true" id="heartIcon"></i> open source ...<br><br> <button class="btn btn-primary" id="resumeButton"><a href="{% static 'portfo_app/MikyleKruger.pdf' %}">Resume</a></button>
-    </p>
+    <div class="row">
+        <div class="col-lg-9">
+            <p id="descriptionText" class="mt-5">
+                Hi. I'm Mikyle Kruger, and a self-taught programmer. My whole journey into Python began when I learnt how to build a small AI which sniffs out wireless networks. Python became a big part of that code for me. I've always had an interest in technology, creating the AI was that push in the right direction to get me started as a developer.<br><br> My hobbies include ricing Linux distro's, tinkering with Raspberry Pi's and Windows security testing. If you want to hire me, I may not be able to remember the complexity of the <a href="https://www.geeksforgeeks.org/radix-sort/" id="radixSort">radix sort algorithm</a> but I am very good at Google.<br><br>I <i class="fa fa-heart-o" aria-hidden="true" id="heartIcon"></i> open source ...<br><br> <button class="btn btn-primary" id="resumeButton"><a href="{% static 'portfo_app/MikyleKruger.pdf' %}">Resume</a></button>
+            </p>
+        </div>
+        <div class="col-lg-3" id="myImage">
+            <img src="{% static 'portfo_app/IMG_1656.jpeg' %}" alt="" width="100%">
+        </div>
+        <small>Yes. I'm serious about your work.</small>
+    </div>
 </div>
 {% endblock body %}
