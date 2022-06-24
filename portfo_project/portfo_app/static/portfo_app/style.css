@@ -186,15 +186,23 @@ h4 a {
     #folders {
         padding: 5%;
         border: none;
+        align-items: center;
+    }
+    #folders-1 {
+        padding: 5%;
+        border: none;
+        align-items: center;
     }
     #hiMyNameIs, #aboutMe, #experience, #projects, #contactMe h1 {
         margin-top: 20%;
         text-align: center;
+        margin-left: 4%;
     }
     #descriptionText {
         text-align: center;
         margin: 5%;
     }
+
 }
 
 .captcha-form {
