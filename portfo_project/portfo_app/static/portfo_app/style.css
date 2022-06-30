@@ -126,7 +126,7 @@ p {
 }
 
 
-#folders {
+#folders, #folders-1{
     border: 1px solid var(--pastelPink);
     border-radius: 5px;
     padding: 1%;
@@ -206,12 +206,13 @@ h4 a {
         margin-left: 10%;
         margin-right: 10%;
     }
+    .captcha-form {
+        max-width: 5%;
+    }
 }
 
 .captcha-form {
     max-width: 20%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #contactMe {
@@ -235,7 +236,7 @@ h4 a {
 
 /* Pastel Colors  */
 :root {
-    --pastelGreen: #CDF0EA;
+    --pastelGreen: #92DED1;
     --pastelBeige: #F9F9F9;
     --pastelPink: #F6C6EA;
     --pastelPurple: #C490E4
