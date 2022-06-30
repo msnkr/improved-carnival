@@ -25,4 +25,4 @@ urlpatterns = [
 ]
 
 handler404 = 'portfo_app.views.error404'
-handler500 = 'portfo_app.error500'
+handler500 = 'portfo_app.views.error500'

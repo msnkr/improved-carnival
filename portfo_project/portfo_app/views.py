@@ -46,5 +46,5 @@ def error404(request, exception):
     return render(request, 'portfo_app/error404.html')
 
 
-def error500(request, exception):
+def error500(request):
     return render(request, 'portfo_app/error500.html')
