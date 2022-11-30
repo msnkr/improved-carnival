@@ -187,6 +187,22 @@ p {
     text-decoration: none;
 }
 
+#thelanguageguild-text {
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#thelanguageguild-exp {
+    border: 1px solid var(--pastelPink);
+    border-radius: 5px;
+    padding: 1%;
+}
+
+#thelanguageguild-exp h4 {
+    text-decoration: none;
+}
+
 h4 a {
     text-decoration: none;
     color: black;
@@ -234,7 +250,14 @@ h4 a {
         border: none;
         padding: 5%;
     }
+    #thelanguageguild {
+        margin-left: 0%;
+    }
 
+    #thelanguageguild-exp {
+        border: none;
+        padding: 5%;
+    }
     #folders {
         padding: 5%;
         border: none;
