@@ -242,7 +242,12 @@ h4 a {
 
 @media screen and (max-width: 600px){
     #linea-text {
+        text-align: left;
         margin-left: 0%;
+    }
+
+    #linea-text h4 {
+        text-align: center;
     }
 
     #linea-exp {
@@ -251,7 +256,12 @@ h4 a {
     }
 
     #vish-text {
+        text-align: left;
         margin-left: 0%;
+    }
+
+    #vish-text h4 {
+        text-align: center;
     }
 
     #vish-exp {
@@ -260,15 +270,26 @@ h4 a {
     }
 
     #tycole-text {
+        text-align: center;
         margin-left: 0%;
+    }
+
+    #tycole-text h4 {
+        text-align: center;
     }
 
     #tycole-exp {
         border: none;
         padding: 5%;
     }
-    #thelanguageguild {
+
+    #thelanguageguild-text {
+        text-align: left;
         margin-left: 0%;
+    }
+
+    #thelanguageguild-text h4 {
+        text-align: center;
     }
 
     #thelanguageguild-exp {
@@ -276,8 +297,13 @@ h4 a {
         padding: 5%;
     }
 
-    #baloyi {
+    #baloyi-text {
+        text-align: left;
         margin-left: 0%;
+    }
+
+    #baloyi-text h4 {
+        text-align: center;
     }
 
     #baloyi-exp {
