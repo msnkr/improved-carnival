@@ -1,0 +1,40 @@
+{% extends 'portfo_app/base.html' %}
+{% load static %}
+
+{% block body %}
+<title>Junior Python Developer | Projects | msnkr</title>
+<div class="container" id="projects">
+    <h1><span id="numbers">04.</span>Projects</h1>
+    <div class="row">
+        <div class="col-lg-8 text-center m-lg-1 p-3" id="folders-1">
+            <h4 class="mb-lg-3">fictional-octo-couscous</h4>
+            <img src="{% static 'portfo_app/TorrentScreenshot.jpg' %}" alt="Watch free movies and seriesm, python" width="100%">
+            <p class="mt-lg-5">Stream Movies/Series For Free</p>
+        </div>
+        <div class="col-lg text-center m-lg-1 p-lg-1" id="folders-1">
+            <h4 class="my-3">tgram_ytbot</h4>
+            <img src="{% static 'portfo_app/optimized_tgram_ytbot2.PNG' %}" alt="download youtube videos and music from telegram, python" width="60%" class="mb-4">
+            <p class="mt-lg-2">Download Music or Music Videos from a Telegram Bot</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="row text-center align-items-center">
+            <div class="col-sm text-center m-lg-2 p-lg-3" id="folders">
+                <h4>musical-octo-waffle</h4>
+                <img src="{% static 'portfo_app/RiceScreenshot.jpg' %}" alt="linux rice" width="100%" height="200%">
+                <p class="mt-lg-2">Make Your Linux Distro Look Like Mine</p>
+            </div>
+            <div class="col-sm text-center m-lg-2 p-lg-3" id="folders">
+                <h4>hacki_tools</h4>
+                <img src="{% static 'portfo_app/HackitoolsScreenshot.jpg' %}" alt="python" width="100%" height="200%">
+                <p class="mt-lg-2">Pentesting Tools with Python</p>
+            </div>
+            <div class="col-sm text-center m-lg-2 p-lg-3" id="folders">
+                <h4>improved-carnival</h4>
+                <img src="{% static 'portfo_app/DJangoScreenshot.jpg' %}" alt="python" width="100%" height="200%">
+                <p class="mt-lg-2">This Website with Django</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}

@@ -1,0 +1,35 @@
+{% extends 'portfo_app/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+
+{% block body %}
+<title>Junior Python Developer | Contact Me | msnkr</title>
+<div class="container" id="contactMe">
+    <h1><span id="numbers">05.</span>Contact Me</h1>
+    <p id="descriptionText">
+        {% if form %}
+        <form method="POST">
+            {% csrf_token %}
+            <div class="row">
+                <div class="col-sm m-sm-4 m-lg-4 text-center">
+                    {{ form.name|as_crispy_field }}
+                </div>
+                <div class="col-sm m-sm-4 m-lg-4 text-center">
+                    {{ form.email|as_crispy_field }}
+                </div>
+            </div>
+            <div class="m-sm-4 m-lg-4 text-center">
+                {{ form.message|as_crispy_field }}
+            </div>
+            <div class="m-lg-4 text-start captcha-form">
+                <p class="captcha-form">{{ form.captcha|as_crispy_field }}</p>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary m-sm-4 m-lg-4">Send</button>
+            </div>
+        </form>
+        {% endif %}
+    </p>
+</div>
+{% endblock body %}
