@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Junior Python Developer and Full-Stack Developer in Johannesburg, South Africa.">
-        <meta name="keywords" content="Junior Python Developer, Python near me, Python, Full-Stack Developer, Django, HTML, CSS, Bootstrap, Gauteng, Johannesburg, South Africa.">
-        <!-- Bootstrap -->
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
-        <!-- Font Awesome 4  -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;1,400&display=swap" rel="stylesheet">
-        <!-- Custom CSS  -->
-        <link rel="stylesheet" href="static/style.css">
-        <link rel="shortcut icon" href="static/terminals.png" type="image/x-icon">
-    </head>
-    <nav class="navbar navbar-expand-lg mx-5">
+<nav class="navbar navbar-expand-lg mx-5">
         <div class="container-fluid">
           <a href="home-page.html"><img src="static/logo.png" alt="" width="120" height="50"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,5 +27,5 @@
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <?php wp_footer();?>
 </body>
-</html>
